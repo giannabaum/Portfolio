@@ -5,7 +5,7 @@ body {
   background-color: #51A3A3;
 }
 /* Class from div element to manipulate the background of mt header*/
-.top-of-page{
+header {
   background-color: #DD7373;
   padding-top: 8px;
   padding-bottom: 15px;
@@ -81,6 +81,19 @@ ol {
   border-radius: 10%;
 
 }
+a:link {
+color: #51A3A3;
+}
+a:visited {
+  color:#51A3A3;
+}
+a:hover {
+  color: #DD7373;
+}
+a:active {
+  color: aqua;
+}
+
 /* Class of footer, add shadow to text*/
 .copyright {
     font-family: shrikhand, monospace;
